@@ -1,0 +1,125 @@
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+.scroll-btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.scroll-btn:hover {
+    background: #333;
+}
+
+.radial-menu {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.radial-menu .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+
+
+
+
+/* Opening screen */
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    font-size: 4rem;
+    transition: transform 0.2s ease-in-out;
+    cursor: default;
+}
+
+.title:hover {
+    transform: scale(1.1); /* 10% enlargement */
+}
+
+/* Sketch section */
+.sketches {
+    width: 100%;
+}
+
+/* centers the iframe */
+.sketch-container {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    margin: 40px 0;
+}
+
+/* iframe sizes */
+.sketch-embed {
+    width: 100%;
+    max-width: 900px;      /* keeps it from being too wide */
+    height: 600px;         /* match this to your canvas height */
+    border: none;
+}
+
+
+
+.sketch-section {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.sketch-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+.radial-menu .scroll-btn {
+    position: absolute;
+}
+
+/* Top */
+.b1 { top: 0%; left: 50%; transform: translateX(-50%); }
+
+/* Top-right */
+.b2 { top: 15%; right: 0%; }
+
+/* Bottom-right */
+.b3 { bottom: 15%; right: 0%; }
+
+/* Bottom */
+.b4 { bottom: 0%; left: 50%; transform: translateX(-50%); }
+
+/* Bottom-left */
+.b5 { bottom: 15%; left: 0%; }
+
+/* Top-left */
+.b6 { top: 15%; left: 0%; }
+
+/* Optional extra (slightly above center right) */
+.b7 { top: 50%; right: -10%; transform: translateY(-50%); }
