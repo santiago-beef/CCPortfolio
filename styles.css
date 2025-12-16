@@ -78,9 +78,6 @@ body {
 }
 
 
-.sketch-container canvas {
-    pointer-events: auto;
-}
 
 /* iframe sizes */
 .sketch-embed {
