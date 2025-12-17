@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFFFFF;
+    background: #8b5650;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
@@ -127,20 +127,20 @@ body {
 .b1 { top: 0%; left: 50%; transform: translateX(-50%); }
 
 /* Top-right */
-.b2 { top: 15%; right: 0%; }
+.b2 { top: 15%; right: -17%; }
 
 
 /* Bottom-right */
-.b4 { bottom: 15%; right: 0%; }
+.b4 { bottom: 20%; right: -20%; }
 
 /* Bottom */
 .b5 { bottom: 0%; left: 50%; transform: translateX(-50%); }
 
 /* Bottom-left */
-.b6 { bottom: 15%; left: 0%; }
+.b6 { bottom: 20%; left: -15%; }
 
 /* Top-left */
-.b7 { top: 15%; left: 0%; }
+.b7 { top: 15%; left: -20%; }
 
 /* Optional extra (slightly above center right) */
-.b3 { top: 50%; right: -10%; transform: translateY(-50%); }
+.b3 { top: 45%; right: -40%; transform: translateY(-50%); }
