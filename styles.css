@@ -81,10 +81,12 @@ body {
 
 /* iframe sizes */
 .sketch-embed {
+    display: block;
     width: 100%;
-    max-width: 900px;      /* keeps it from being too wide */
-    height: 600px;         /* match this to your canvas height */
+    max-width: 900px;
+    height: 600px;
     border: none;
+    margin: 0 auto;
 }
 
 
