@@ -129,17 +129,18 @@ body {
 /* Top-right */
 .b2 { top: 15%; right: 0%; }
 
+
 /* Bottom-right */
-.b3 { bottom: 15%; right: 0%; }
+.b4 { bottom: 15%; right: 0%; }
 
 /* Bottom */
-.b4 { bottom: 0%; left: 50%; transform: translateX(-50%); }
+.b5 { bottom: 0%; left: 50%; transform: translateX(-50%); }
 
 /* Bottom-left */
-.b5 { bottom: 15%; left: 0%; }
+.b6 { bottom: 15%; left: 0%; }
 
 /* Top-left */
-.b6 { top: 15%; left: 0%; }
+.b7 { top: 15%; left: 0%; }
 
 /* Optional extra (slightly above center right) */
-.b7 { top: 50%; right: -10%; transform: translateY(-50%); }
+.b3 { top: 50%; right: -10%; transform: translateY(-50%); }
