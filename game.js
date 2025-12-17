@@ -1,5 +1,6 @@
 const gameSketch = (p) => {
 
+
     let items = [];
     let currentMessage = "";
     let messageTimer = 0;
@@ -193,6 +194,8 @@ const gameSketch = (p) => {
         } else if (gameState === "Settings") {
             if (inside(backBtn)) gameState = "Menu";
         }
+        console.log("CLICK", p.mouseX, p.mouseY);
+
     };
 
     function inside(btn) {
