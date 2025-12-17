@@ -82,9 +82,9 @@ body {
 
 .sketch-embed {
     display: block;        /* critical */
-    width: 900px;          /* or whatever size you want */
+    width: 600px;          
     max-width: 100%;
-    height: 600px;
+    height: 400px;
     margin-left: auto;     /* critical */
     margin-right: auto;    /* critical */
     border: none;
