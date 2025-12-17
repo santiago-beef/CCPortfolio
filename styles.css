@@ -70,13 +70,13 @@ body {
 }
 
 /* centers the iframe */
+
 .sketch-container {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
     margin: 40px 0;
-
+    pointer-events: auto;
 }
-
 
 
 /* iframe sizes */
@@ -88,11 +88,22 @@ body {
 }
 
 
-
 .sketch-section {
     min-height: 100vh;
     padding-top: 80px;
+    pointer-events: none;
 }
+
+
+
+#game canvas {
+    pointer-events: auto;
+    position: relative;
+    z-index: 10;
+}
+
+
+
 
 .sketch-section h2 {
     text-align: center;
